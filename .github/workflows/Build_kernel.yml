@@ -42,7 +42,7 @@ jobs:
         NAME: ${{ steps.vars.outputs.release_name }}
       with:
         arch: arm64
-        compiler: proton-clang/master
+        compiler: proton-clang/09fb113/binutils
         defconfig: RMX1921_defconfig
         image: Image.gz-dtb
 
